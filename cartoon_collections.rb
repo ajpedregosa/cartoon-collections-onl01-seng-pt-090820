@@ -7,8 +7,8 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls_long)
+  answer = false
   calls_long.each do |call|
-    answer = false
     if call.length > 4
       answer = true
       end
